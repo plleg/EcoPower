@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower;
+package me.plleg.ecopower;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Material;
@@ -6,14 +6,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import io.github.thebusybiscuit.ecopower.generators.HighEnergySolarGenerator;
-import io.github.thebusybiscuit.ecopower.generators.LightningReceptor;
-import io.github.thebusybiscuit.ecopower.generators.LunarGenerator;
-import io.github.thebusybiscuit.ecopower.generators.SteamTurbine;
-import io.github.thebusybiscuit.ecopower.generators.SteamTurbineMultiblock;
-import io.github.thebusybiscuit.ecopower.generators.WindTurbine;
-import io.github.thebusybiscuit.ecopower.generators.WindTurbineMultiblock;
-import io.github.thebusybiscuit.ecopower.items.SteelRotor;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
@@ -28,6 +20,14 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import me.plleg.ecopower.generators.HighEnergySolarGenerator;
+import me.plleg.ecopower.generators.LightningReceptor;
+import me.plleg.ecopower.generators.LunarGenerator;
+import me.plleg.ecopower.generators.SteamTurbine;
+import me.plleg.ecopower.generators.SteamTurbineMultiblock;
+import me.plleg.ecopower.generators.WindTurbine;
+import me.plleg.ecopower.generators.WindTurbineMultiblock;
+import me.plleg.ecopower.items.SteelRotor;
 
 public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
 
@@ -36,7 +36,7 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
         Config cfg = new Config(this);
 
         if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/EcoPower/master").start();
+            new GitHubBuildsUpdater(this, getFile(), "plleg/EcoPower/master").start();
         }
 
         new Metrics(this, 8154);
@@ -175,7 +175,7 @@ public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/TheBusyBiscuit/EcoPower/issues";
+        return "https://github.com/plleg/EcoPower/issues";
     }
 
     @Override

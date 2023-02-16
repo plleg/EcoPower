@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package me.plleg.ecopower.generators;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -10,7 +10,7 @@ import io.github.thebusybiscuit.slimefun4.implementation.items.electric.generato
 /**
  * The {@link LunarGenerator} is a {@link SolarGenerator} which <strong>only works at night!</strong>.
  * 
- * @author TheBusyBiscuit
+ * @author plleg
  *
  */
 public class LunarGenerator extends SolarGenerator {

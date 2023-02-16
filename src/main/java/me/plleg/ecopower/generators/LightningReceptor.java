@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package me.plleg.ecopower.generators;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +23,7 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
  * The {@link LightningReceptor} attracts a {@link LightningStrike} during thunderstorms
  * and harnesses it' electrical energy.
  * 
- * @author TheBusyBiscuit
+ * @author plleg
  *
  */
 public class LightningReceptor extends SlimefunItem implements EnergyNetProvider {

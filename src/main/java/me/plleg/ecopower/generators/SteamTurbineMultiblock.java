@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package me.plleg.ecopower.generators;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -15,7 +15,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 /**
  * This is the multiblock variant of the {@link SteamTurbine}, as shown in the {@link SlimefunGuide}.
  * 
- * @author TheBusyBiscuit
+ * @author plleg
  *
  */
 public class SteamTurbineMultiblock extends SimpleSlimefunItem<ItemUseHandler> implements NotPlaceable {

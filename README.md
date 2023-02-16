@@ -14,13 +14,7 @@ You can find a list of all the new ways you can generate power right below:
 * Lightning Receptors (transform lightning strikes into useable electricity -> [video](https://youtu.be/mAntFr0c1gg))
 
 ## Download EcoPower
-You can download EcoPower right here: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/)
-
-<p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/">
-    <img src="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/EcoPower/master/badge.svg" alt="Build Server"/>
-  </a>
-</p>
+You can download EcoPower right here: (https://github.com/plleg/EcoPower/)
 
 ## Discord
 You can find Slimefun's community on Discord!

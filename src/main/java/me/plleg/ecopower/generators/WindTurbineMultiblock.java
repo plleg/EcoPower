@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package me.plleg.ecopower.generators;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;

@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package me.plleg.ecopower.generators;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,7 +24,7 @@ import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 /**
  * The {@link SteamTurbine} generates energy when placed above bubbling water.
  * 
- * @author TheBusyBiscuit
+ * @author plleg
  * 
  * @see WindTurbine
  *
